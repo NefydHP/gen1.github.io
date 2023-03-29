@@ -1,0 +1,99 @@
+@font-face {
+	font-family: pokemon_solid;
+	src: url(pokemon_solid.ttf);
+}
+
+body {
+	background-color: rgb(20, 20, 20);
+	font-family: "pokemon_solid";
+	color: whitesmoke;
+	letter-spacing: 3px;
+	font-size: 125%;
+
+	margin: 2% 25% 2% 25%;
+	text-align: center;
+	line-height: 100%;
+}
+
+div.header {
+	padding-bottom: 5%;
+}
+
+div.header h1 {
+	color: rgb(240, 210, 0);
+}
+
+div.starters a img {
+	width: 35%;
+	height: 35%;
+	padding: 0px 5% 0px 5%;
+	transition: all 0.15s;
+}
+
+div.starters a:hover img {
+	background-color: rgb(25, 25, 25);
+	width: 40%;
+	height: 40%;
+	border-radius: 10%;
+}
+
+h1#bulbasaur {
+	color: #77d430;
+}
+
+h1#squirtle {
+	color: #7fe0d5;
+}
+
+h1#charmander {
+	color: #ff5722;
+}
+
+img.pokeimg {
+	width: 35%;
+	height: 35%;
+	padding: 2% 5% 2% 5%;
+}
+
+div.information {
+	padding: 0 5% 0 5%;
+}
+
+.type_text {
+	color: #505050;
+}
+
+#grass {
+	color: greenyellow;
+}
+
+#poison {
+	color: violet;
+}
+
+#pokedex {
+	font-size: 75%;
+}
+
+#water {
+	color: cornflowerblue;
+}
+
+#fire {
+	color: crimson;
+}
+
+#back {
+	color: azure;
+	font-style: normal;
+	transition: all 0.15s;
+}
+
+#back:hover p {
+	width: 40%;
+	height: 40%;
+}
+
+#pokedex {
+	padding-bottom: 20%;
+}
